@@ -47,7 +47,7 @@ const Hero = () => {
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
 
-              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/490] lg:aspect-[1024/490]">
+              <div className="aspect-[33/40] rounded-b-[0.9rem] overflow-hidden md:aspect-[688/400] lg:aspect-[1024/420]">
                 <img
                   src={robot}
                   className="w-full scale-[1.7] translate-y-[8%] md:scale-[1] md:-translate-y-[10%] lg:-translate-y-[23%]"
@@ -84,11 +84,10 @@ const Hero = () => {
               src={heroBackground}
               className="w-full"
               width={1440}
-              height={1800}
+              height={2000} 
               alt="hero"
             />
           </div>
-
           <BackgroundCircles />
         </div>
 
@@ -101,3 +100,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
